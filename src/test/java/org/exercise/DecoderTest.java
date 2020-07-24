@@ -10,4 +10,6 @@ public class DecoderTest {
   public void shouldCountDecodingWays() {
     assertEquals(Decoder.decode(new char[]{'1', '2', '3', '4', '1', '2', '1'}, 7), 9);
   }
+
+
 }
